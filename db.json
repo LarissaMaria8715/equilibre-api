@@ -91,34 +91,4 @@
     }
   ],
 
-  "diario": [
-    {
-      "id": 1,
-      "usuario_id": 1,
-      "titulo": "Dia tranquilo",
-      "conteudo": "Hoje consegui manter a calma e cumprir todas as metas. Fiz respiração e me senti bem.",
-      "data": "2025-10-09"
-    },
-    {
-      "id": 2,
-      "usuario_id": 1,
-      "titulo": "Ansiedade no trabalho",
-      "conteudo": "Tive um pouco de ansiedade antes da reunião, mas consegui me controlar com meditação rápida.",
-      "data": "2025-10-08"
-    },
-    {
-      "id": 3,
-      "usuario_id": 2,
-      "titulo": "Dia produtivo",
-      "conteudo": "Acordei cedo, fiz alongamentos e consegui me concentrar melhor durante o dia.",
-      "data": "2025-10-09"
-    },
-    {
-      "id": 4,
-      "usuario_id": 2,
-      "titulo": "Dificuldade de foco",
-      "conteudo": "Hoje me distraí bastante, preciso voltar à rotina de leitura antes de dormir.",
-      "data": "2025-10-07"
-    }
-  ]
-}
+  
