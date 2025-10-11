@@ -1,0 +1,480 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Ana Pereira",
+      "email": "ana.pereira@example.com",
+      "senha": "senha123",
+      "dataNascimento": "1992-04-12",
+      "genero": "Feminino",
+      "altura": 1.68,
+      "peso": 62.0,
+      "telefone": "11999990001",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "objetivo": "Reduzir estresse",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": ""
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Costa",
+      "email": "bruno.costa@example.com",
+      "senha": "meuPass",
+      "dataNascimento": "1988-11-02",
+      "genero": "Masculino",
+      "altura": 1.78,
+      "peso": 82.5,
+      "telefone": "21988880002",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "objetivo": "Dormir melhor",
+      "praticaMeditacao": 0,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": "Hipertensão leve"
+    },
+    {
+      "id": 3,
+      "nome": "Carla Souza",
+      "email": "carla.souza@example.com",
+      "senha": "abc123456",
+      "dataNascimento": "2000-01-20",
+      "genero": "Feminino",
+      "altura": 1.60,
+      "peso": 55.0,
+      "telefone": "31977770003",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "objetivo": "Aumentar foco",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 0,
+      "condicaoSaude": ""
+    },
+    {
+      "id": 4,
+      "nome": "Diego Alves",
+      "email": "diego.alves@example.com",
+      "senha": "senhaDemo",
+      "dataNascimento": "1979-07-09",
+      "genero": "Masculino",
+      "altura": 1.82,
+      "peso": 90.2,
+      "telefone": "41966660004",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "objetivo": "Perder peso",
+      "praticaMeditacao": 0,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": "Diabetes tipo 2"
+    },
+    {
+      "id": 5,
+      "nome": "Elisa Martins",
+      "email": "elisa.martins@example.com",
+      "senha": "elisaPwd",
+      "dataNascimento": "1997-03-18",
+      "genero": "Feminino",
+      "altura": 1.70,
+      "peso": 68.0,
+      "telefone": "51955550005",
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "objetivo": "Melhorar humor",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": ""
+    }
+  ],
+
+  "perfil": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "bio": "Designer que medita todo dia. Ama plantas e chá verde.",
+      "temaApp": "claro",
+      "nivelUsuario": "intermediario",
+      "assinaturaAtiva": false
+    },
+    {
+      "id": 2,
+      "usuario_id": 2,
+      "bio": "Corredor amador tentando melhorar sono.",
+      "temaApp": "escuro",
+      "nivelUsuario": "iniciante",
+      "assinaturaAtiva": true
+    },
+    {
+      "id": 3,
+      "usuario_id": 3,
+      "bio": "Estudante de engenharia, busca foco para estudar.",
+      "temaApp": "claro",
+      "nivelUsuario": "avancado",
+      "assinaturaAtiva": false
+    },
+    {
+      "id": 4,
+      "usuario_id": 4,
+      "bio": "Gosta de trilhas e quer controlar alimentação.",
+      "temaApp": "escuro",
+      "nivelUsuario": "iniciante",
+      "assinaturaAtiva": true
+    },
+    {
+      "id": 5,
+      "usuario_id": 5,
+      "bio": "Apaixonada por yoga. Busca equilíbrio emocional.",
+      "temaApp": "claro",
+      "nivelUsuario": "intermediario",
+      "assinaturaAtiva": false
+    }
+  ],
+
+  "habitos": [
+    { "id": 1, "usuario_id": 1, "nome": "Meditar 10 min", "descricao": "Meditação guiada de manhã", "data": "2025-10-11" },
+    { "id": 2, "usuario_id": 1, "nome": "Hidratar 2L", "descricao": "Beber 2 litros de água", "data": "2025-10-11" },
+    { "id": 3, "usuario_id": 1, "nome": "Alongar", "descricao": "Alongamento após acordar", "data": "2025-10-10" },
+    { "id": 4, "usuario_id": 2, "nome": "Corrida leve", "descricao": "30 minutos de corrida", "data": "2025-10-09" },
+    { "id": 5, "usuario_id": 2, "nome": "Desconexão", "descricao": "Sem telas 1 hora antes de dormir", "data": "2025-10-10" },
+    { "id": 6, "usuario_id": 3, "nome": "Pomodoro", "descricao": "Sessões de estudo 25/5", "data": "2025-10-11" },
+    { "id": 7, "usuario_id": 3, "nome": "Diário de estudo", "descricao": "Anotar 3 aprendizados do dia", "data": "2025-10-08" },
+    { "id": 8, "usuario_id": 4, "nome": "Refeição equilibrada", "descricao": "Prato com proteína e vegetais", "data": "2025-10-07" },
+    { "id": 9, "usuario_id": 4, "nome": "Controle glicemia", "descricao": "Medir glicose após refeição", "data": "2025-10-06" },
+    { "id": 10, "usuario_id": 5, "nome": "Aula de yoga", "descricao": "Aula online de 45 minutos", "data": "2025-10-11" },
+    { "id": 11, "usuario_id": 5, "nome": "Respiração 5-5", "descricao": "Exercício de respiração 5 in/5 out", "data": "2025-10-11" },
+    { "id": 12, "usuario_id": 1, "nome": "Leitura noturna", "descricao": "Ler 20 páginas antes de dormir", "data": "2025-09-30" },
+    { "id": 13, "usuario_id": 2, "nome": "Alongar perna", "descricao": "Prevenir lesões", "data": "2025-10-02" },
+    { "id": 14, "usuario_id": 3, "nome": "Evitar cafeína tarde", "descricao": "Cafeína só até 15h", "data": "2025-10-05" },
+    { "id": 15, "usuario_id": 4, "nome": "Caminhada pós-almoço", "descricao": "10 minutos de caminhada", "data": "2025-10-04" },
+    { "id": 16, "usuario_id": 5, "nome": "Gratidão", "descricao": "Escrever 3 coisas pela manhã", "data": "2025-09-29" },
+    { "id": 17, "usuario_id": 1, "nome": "Pausas no trabalho", "descricao": "5 minutos de pausa a cada 50", "data": "2025-10-11" },
+    { "id": 18, "usuario_id": 2, "nome": "Sono 7-8h", "descricao": "Ir para cama até 23:00", "data": "2025-10-01" },
+    { "id": 19, "usuario_id": 3, "nome": "Organizar agenda", "descricao": "Planejar o dia na noite anterior", "data": "2025-10-03" },
+    { "id": 20, "usuario_id": 4, "nome": "Hábito de água", "descricao": "Copo depois de acordar", "data": "2025-10-06" },
+    { "id": 21, "usuario_id": 5, "nome": "Técnica 4-7-8", "descricao": "Respiração para dormir melhor", "data": "2025-10-11" },
+    { "id": 22, "usuario_id": 1, "nome": "Desconectar fim de semana", "descricao": "Sem e-mail aos domingos", "data": "2025-10-05" },
+    { "id": 23, "usuario_id": 2, "nome": "Jantar leve", "descricao": "Evitar frituras à noite", "data": "2025-10-08" },
+    { "id": 24, "usuario_id": 3, "nome": "Postura", "descricao": "Corrigir postura a cada 30 minutos", "data": "2025-10-09" },
+    { "id": 25, "usuario_id": 4, "nome": "Controlar porções", "descricao": "Usar prato menor", "data": "2025-10-10" },
+    { "id": 26, "usuario_id": 5, "nome": "Timer foco", "descricao": "Usar temporizador para foco", "data": "2025-10-11" },
+    { "id": 27, "usuario_id": 1, "nome": "Café moderado", "descricao": "Máx 2 xícaras por dia", "data": "2025-10-02" },
+    { "id": 28, "usuario_id": 2, "nome": "Check-in emocional", "descricao": "Avaliar humor antes de dormir", "data": "2025-10-11" },
+    { "id": 29, "usuario_id": 3, "nome": "Esticar olhos", "descricao": "Exercício visual 1 vez/h", "data": "2025-10-07" },
+    { "id": 30, "usuario_id": 4, "nome": "Hábito de cardápio", "descricao": "Planejar refeições da semana", "data": "2025-10-03" }
+  ],
+
+  "humor": [
+    { "id": 1, "usuario_id": 1, "humorLabel": "Calma", "humorEmoji": "😌", "data": "2025-10-11" },
+    { "id": 2, "usuario_id": 1, "humorLabel": "Ansiosa", "humorEmoji": "😟", "data": "2025-10-10" },
+    { "id": 3, "usuario_id": 2, "humorLabel": "Cansado", "humorEmoji": "😴", "data": "2025-10-09" },
+    { "id": 4, "usuario_id": 2, "humorLabel": "Motivado", "humorEmoji": "💪", "data": "2025-10-08" },
+    { "id": 5, "usuario_id": 3, "humorLabel": "Focado", "humorEmoji": "🎯", "data": "2025-10-11" },
+    { "id": 6, "usuario_id": 3, "humorLabel": "Irritado", "humorEmoji": "😠", "data": "2025-10-07" },
+    { "id": 7, "usuario_id": 4, "humorLabel": "Preocupado", "humorEmoji": "😟", "data": "2025-10-06" },
+    { "id": 8, "usuario_id": 4, "humorLabel": "Esperançoso", "humorEmoji": "🌤️", "data": "2025-10-05" },
+    { "id": 9, "usuario_id": 5, "humorLabel": "Feliz", "humorEmoji": "😊", "data": "2025-10-11" },
+    { "id": 10, "usuario_id": 5, "humorLabel": "Triste", "humorEmoji": "😢", "data": "2025-10-03" },
+    { "id": 11, "usuario_id": 1, "humorLabel": "Animada", "humorEmoji": "😃", "data": "2025-09-30" },
+    { "id": 12, "usuario_id": 2, "humorLabel": "Frustrado", "humorEmoji": "😤", "data": "2025-09-29" },
+    { "id": 13, "usuario_id": 3, "humorLabel": "Calmo", "humorEmoji": "😌", "data": "2025-09-28" },
+    { "id": 14, "usuario_id": 4, "humorLabel": "Confiante", "humorEmoji": "😎", "data": "2025-09-27" },
+    { "id": 15, "usuario_id": 5, "humorLabel": "Serena", "humorEmoji": "🌺", "data": "2025-09-26" },
+    { "id": 16, "usuario_id": 1, "humorLabel": "Estressada", "humorEmoji": "😣", "data": "2025-09-25" },
+    { "id": 17, "usuario_id": 2, "humorLabel": "Relaxado", "humorEmoji": "🧘", "data": "2025-09-24" },
+    { "id": 18, "usuario_id": 3, "humorLabel": "Curioso", "humorEmoji": "🤔", "data": "2025-09-23" },
+    { "id": 19, "usuario_id": 4, "humorLabel": "Exausto", "humorEmoji": "🥱", "data": "2025-09-22" },
+    { "id": 20, "usuario_id": 5, "humorLabel": "Agradecida", "humorEmoji": "🙏", "data": "2025-09-21" },
+    { "id": 21, "usuario_id": 1, "humorLabel": "Equilibrada", "humorEmoji": "⚖️", "data": "2025-09-20" },
+    { "id": 22, "usuario_id": 2, "humorLabel": "Irritado", "humorEmoji": "😤", "data": "2025-09-19" },
+    { "id": 23, "usuario_id": 3, "humorLabel": "Sereno", "humorEmoji": "🙂", "data": "2025-09-18" },
+    { "id": 24, "usuario_id": 4, "humorLabel": "Animado", "humorEmoji": "😁", "data": "2025-09-17" },
+    { "id": 25, "usuario_id": 5, "humorLabel": "Pensativa", "humorEmoji": "🤓", "data": "2025-09-16" },
+    { "id": 26, "usuario_id": 1, "humorLabel": "Motivada", "humorEmoji": "🔥", "data": "2025-09-15" },
+    { "id": 27, "usuario_id": 2, "humorLabel": "Melancólico", "humorEmoji": "😔", "data": "2025-09-14" },
+    { "id": 28, "usuario_id": 3, "humorLabel": "Tranquilo", "humorEmoji": "😴", "data": "2025-09-13" },
+    { "id": 29, "usuario_id": 4, "humorLabel": "Determinado", "humorEmoji": "🏃", "data": "2025-09-12" },
+    { "id": 30, "usuario_id": 5, "humorLabel": "Curiosa", "humorEmoji": "🧐", "data": "2025-09-11" }
+  ],
+
+  "diario": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "titulo": "Manhã tranquila",
+      "conteudo": "Meditei 10 minutos e já senti o dia mais leve.",
+      "data": "2025-10-11"
+    },
+    {
+      "id": 2,
+      "usuario_id": 1,
+      "titulo": "Ansiedade geral",
+      "conteudo": "Tive ansiedade antes da apresentação; respirei e passou.",
+      "data": "2025-10-10"
+    },
+    {
+      "id": 3,
+      "usuario_id": 2,
+      "titulo": "Corrida e sono",
+      "conteudo": "Corri 5 km; dormi melhor depois.",
+      "data": "2025-10-09"
+    },
+    {
+      "id": 4,
+      "usuario_id": 2,
+      "titulo": "Stress no trabalho",
+      "conteudo": "Dia corrido, mas respirei profundamente 3x.",
+      "data": "2025-10-08"
+    },
+    {
+      "id": 5,
+      "usuario_id": 3,
+      "titulo": "Foco nos estudos",
+      "conteudo": "Usei pomodoro e rendeu muito.",
+      "data": "2025-10-11"
+    },
+    {
+      "id": 6,
+      "usuario_id": 3,
+      "titulo": "Prova difícil",
+      "conteudo": "Me preparei bem; confiante para a prova.",
+      "data": "2025-10-07"
+    },
+    {
+      "id": 7,
+      "usuario_id": 4,
+      "titulo": "Exame médico",
+      "conteudo": "Consulta do diabetes; ajustar medicação.",
+      "data": "2025-10-06"
+    },
+    {
+      "id": 8,
+      "usuario_id": 4,
+      "titulo": "Caminhada curta",
+      "conteudo": "A caminhada ajudou a reduzir fome em excesso.",
+      "data": "2025-10-05"
+    },
+    {
+      "id": 9,
+      "usuario_id": 5,
+      "titulo": "Aula de yoga",
+      "conteudo": "A aula melhorou minha respiração e humor.",
+      "data": "2025-10-11"
+    },
+    {
+      "id": 10,
+      "usuario_id": 5,
+      "titulo": "Noite de reflexão",
+      "conteudo": "Escrevi 3 coisas que agradeço.",
+      "data": "2025-10-03"
+    },
+    {
+      "id": 11,
+      "usuario_id": 1,
+      "titulo": "Projeto entregue",
+      "conteudo": "Entrega no trabalho e sensação de alívio.",
+      "data": "2025-09-30"
+    },
+    {
+      "id": 12,
+      "usuario_id": 2,
+      "titulo": "Sono ruim",
+      "conteudo": "Acordei várias vezes; preciso reduzir cafeína.",
+      "data": "2025-09-29"
+    },
+    {
+      "id": 13,
+      "usuario_id": 3,
+      "titulo": "Estudo produtivo",
+      "conteudo": "Aprendi 3 novos conceitos de cálculo.",
+      "data": "2025-09-28"
+    },
+    {
+      "id": 14,
+      "usuario_id": 4,
+      "titulo": "Compras saudáveis",
+      "conteudo": "Comprei frutas e legumes para a semana.",
+      "data": "2025-09-27"
+    },
+    {
+      "id": 15,
+      "usuario_id": 5,
+      "titulo": "Dia leve",
+      "conteudo": "Praia e leitura — recarreguei energias.",
+      "data": "2025-09-26"
+    },
+    {
+      "id": 16,
+      "usuario_id": 1,
+      "titulo": "Sessão com terapeuta",
+      "conteudo": "Insights importantes sobre limites pessoais.",
+      "data": "2025-09-25"
+    },
+    {
+      "id": 17,
+      "usuario_id": 2,
+      "titulo": "Treino forte",
+      "conteudo": "Senti cansaço, mas recompensador.",
+      "data": "2025-09-24"
+    },
+    {
+      "id": 18,
+      "usuario_id": 3,
+      "titulo": "Progresso no projeto",
+      "conteudo": "Concluí parte do TCC hoje.",
+      "data": "2025-09-23"
+    },
+    {
+      "id": 19,
+      "usuario_id": 4,
+      "titulo": "Dia difícil",
+      "conteudo": "Tive recaída nos hábitos alimentares; recomeçar amanhã.",
+      "data": "2025-09-22"
+    },
+    {
+      "id": 20,
+      "usuario_id": 5,
+      "titulo": "Meditação guiada",
+      "conteudo": "Meditei 15 minutos e me senti centrada.",
+      "data": "2025-09-21"
+    },
+    {
+      "id": 21,
+      "usuario_id": 1,
+      "titulo": "Almoço com amiga",
+      "conteudo": "Conversa leve e risadas.",
+      "data": "2025-09-20"
+    },
+    {
+      "id": 22,
+      "usuario_id": 2,
+      "titulo": "Maratona de trabalho",
+      "conteudo": "Muitos prazos; pratiquei respiração curta.",
+      "data": "2025-09-19"
+    },
+    {
+      "id": 23,
+      "usuario_id": 3,
+      "titulo": "Rotina estabelecida",
+      "conteudo": "Horário de estudo consistente gerou resultados.",
+      "data": "2025-09-18"
+    },
+    {
+      "id": 24,
+      "usuario_id": 4,
+      "titulo": "Consulta nutricional",
+      "conteudo": "Plano alimentar novo para controlar glicose.",
+      "data": "2025-09-17"
+    },
+    {
+      "id": 25,
+      "usuario_id": 5,
+      "titulo": "Voluntariado",
+      "conteudo": "Ajudei em ação comunitária — motivador.",
+      "data": "2025-09-16"
+    },
+    {
+      "id": 26,
+      "usuario_id": 1,
+      "titulo": "Fim de semana criativo",
+      "conteudo": "Pintei e relaxei.",
+      "data": "2025-09-15"
+    },
+    {
+      "id": 27,
+      "usuario_id": 2,
+      "titulo": "Consulta de sono",
+      "conteudo": "Recebi orientações para higiene do sono.",
+      "data": "2025-09-14"
+    },
+    {
+      "id": 28,
+      "usuario_id": 3,
+      "titulo": "Revisão com colegas",
+      "conteudo": "Discussões úteis para projeto de grupo.",
+      "data": "2025-09-13"
+    },
+    {
+      "id": 29,
+      "usuario_id": 4,
+      "titulo": "Café com a família",
+      "conteudo": "Conversa reconfortante.",
+      "data": "2025-09-12"
+    },
+    {
+      "id": 30,
+      "usuario_id": 5,
+      "titulo": "Playlist nova",
+      "conteudo": "Criei playlist que me acalma.",
+      "data": "2025-09-11"
+    }
+  ],
+
+  "metas": [
+    { "id": 1, "usuario_id": 1, "titulo": "Meditar 20 dias", "descricao": "Completar 20 sessões em 30 dias", "progresso": 8, "meta": 20, "prazo": "2025-11-10" },
+    { "id": 2, "usuario_id": 1, "titulo": "Ler 4 livros", "descricao": "Ler 4 livros de bem-estar", "progresso": 1, "meta": 4, "prazo": "2025-12-31" },
+    { "id": 3, "usuario_id": 2, "titulo": "Melhorar sono", "descricao": "Conseguir média de 7h de sono", "progresso": 3, "meta": 30, "prazo": "2025-11-30" },
+    { "id": 4, "usuario_id": 3, "titulo": "Estudo diário", "descricao": "Estudar 25 dias no mês", "progresso": 12, "meta": 25, "prazo": "2025-10-31" },
+    { "id": 5, "usuario_id": 4, "titulo": "Perder 5kg", "descricao": "Reduzir 5kg nos próximos 3 meses", "progresso": 1, "meta": 5, "prazo": "2026-01-10" },
+    { "id": 6, "usuario_id": 5, "titulo": "Aulas de yoga", "descricao": "Completar 12 aulas", "progresso": 4, "meta": 12, "prazo": "2025-12-01" },
+    { "id": 7, "usuario_id": 2, "titulo": "Correr 10km", "descricao": "Aumentar distância para 10km sem parar", "progresso": 6, "meta": 10, "prazo": "2025-11-15" },
+    { "id": 8, "usuario_id": 3, "titulo": "Projeto TCC", "descricao": "Finalizar capítulo 2", "progresso": 2, "meta": 6, "prazo": "2025-11-01" },
+    { "id": 9, "usuario_id": 4, "titulo": "Checkups regulares", "descricao": "Fazer exames trimestrais", "progresso": 1, "meta": 3, "prazo": "2026-03-01" },
+    { "id": 10, "usuario_id": 5, "titulo": "Prática de gratidão", "descricao": "Escrever gratidão 21 dias seguidos", "progresso": 5, "meta": 21, "prazo": "2025-10-21" },
+    { "id": 11, "usuario_id": 1, "titulo": "Menos redes sociais", "descricao": "Reduzir uso para 30 min/dia", "progresso": 2, "meta": 30, "prazo": "2025-11-01" },
+    { "id": 12, "usuario_id": 2, "titulo": "Ajustar alimentação", "descricao": "Adotar 5 refeições saudáveis/semana", "progresso": 3, "meta": 5, "prazo": "2025-10-31" },
+    { "id": 13, "usuario_id": 3, "titulo": "Fazer revisão", "descricao": "Revisar notas 4x por semana", "progresso": 7, "meta": 16, "prazo": "2025-11-15" },
+    { "id": 14, "usuario_id": 4, "titulo": "Reduzir açúcar", "descricao": "Diminuir doces para 1x/semana", "progresso": 0, "meta": 4, "prazo": "2025-12-31" },
+    { "id": 15, "usuario_id": 5, "titulo": "Aprender pranayama", "descricao": "Dominar 3 técnicas de respiração", "progresso": 1, "meta": 3, "prazo": "2025-11-30" }
+  ],
+
+  "respiracao": [
+    { "id": 1, "usuario_id": 1, "tipo": "4-4", "duracaoSeg": 120, "descricao": "Respiração 4 segundos in, 4 out", "data": "2025-10-11" },
+    { "id": 2, "usuario_id": 1, "tipo": "5-5", "duracaoSeg": 300, "descricao": "Respiração mais longa para foco", "data": "2025-10-10" },
+    { "id": 3, "usuario_id": 2, "tipo": "4-7-8", "duracaoSeg": 180, "descricao": "Técnica para insônia", "data": "2025-10-09" },
+    { "id": 4, "usuario_id": 3, "tipo": "Box breathing", "duracaoSeg": 150, "descricao": "Caixa: 4-4-4-4", "data": "2025-10-08" },
+    { "id": 5, "usuario_id": 4, "tipo": "Respiração diafragmática", "duracaoSeg": 240, "descricao": "Respiração profunda abdominal", "data": "2025-10-07" },
+    { "id": 6, "usuario_id": 5, "tipo": "Respiração alternada", "duracaoSeg": 120, "descricao": "Nadi shodhana simplificado", "data": "2025-10-06" },
+    { "id": 7, "usuario_id": 1, "tipo": "4-7-8", "duracaoSeg": 180, "descricao": "Ajuda para relaxar antes de dormir", "data": "2025-09-30" },
+    { "id": 8, "usuario_id": 2, "tipo": "Sigh breaths", "duracaoSeg": 60, "descricao": "Suspirar profundamente para alívio", "data": "2025-09-29" },
+    { "id": 9, "usuario_id": 3, "tipo": "4-4", "duracaoSeg": 120, "descricao": "Foco rápido antes de estudar", "data": "2025-09-28" },
+    { "id": 10, "usuario_id": 4, "tipo": "5-5", "duracaoSeg": 300, "descricao": "Sessão longa para recuperação", "data": "2025-09-27" },
+    { "id": 11, "usuario_id": 5, "tipo": "Box breathing", "duracaoSeg": 150, "descricao": "Calmante para ansiedade", "data": "2025-09-26" },
+    { "id": 12, "usuario_id": 1, "tipo": "4-4", "duracaoSeg": 60, "descricao": "Pausa de respiração durante o trabalho", "data": "2025-09-25" }
+  ],
+
+  "agenda": [
+    { "id": 1, "usuario_id": 1, "titulo": "Sessão de meditação", "descricao": "Meditação guiada no app", "data": "2025-10-12", "hora": "07:30" },
+    { "id": 2, "usuario_id": 1, "titulo": "Reunião equipe", "descricao": "Reunião mensal do time", "data": "2025-10-14", "hora": "10:00" },
+    { "id": 3, "usuario_id": 2, "titulo": "Treino 5km", "descricao": "Treino leve no parque", "data": "2025-10-13", "hora": "06:00" },
+    { "id": 4, "usuario_id": 2, "titulo": "Consulta sono", "descricao": "Consulta com especialista", "data": "2025-10-20", "hora": "14:00" },
+    { "id": 5, "usuario_id": 3, "titulo": "Prazo TCC", "descricao": "Enviar capítulo 1", "data": "2025-10-25", "hora": "23:59" },
+    { "id": 6, "usuario_id": 3, "titulo": "Estudo em grupo", "descricao": "Reunião de revisão", "data": "2025-10-15", "hora": "18:00" },
+    { "id": 7, "usuario_id": 4, "titulo": "Consulta nutricional", "descricao": "Avaliação alimentar", "data": "2025-10-18", "hora": "09:00" },
+    { "id": 8, "usuario_id": 4, "titulo": "Exame de rotina", "descricao": "Exames laboratoriais", "data": "2025-10-22", "hora": "07:30" },
+    { "id": 9, "usuario_id": 5, "titulo": "Aula yoga", "descricao": "Aula semanal", "data": "2025-10-11", "hora": "19:00" },
+    { "id": 10, "usuario_id": 5, "titulo": "Workshop respiração", "descricao": "Oficina online", "data": "2025-10-30", "hora": "20:00" },
+    { "id": 11, "usuario_id": 1, "titulo": "Consulta terapeuta", "descricao": "Sessão quinzenal", "data": "2025-10-16", "hora": "16:00" },
+    { "id": 12, "usuario_id": 2, "titulo": "Dia de descanso", "descricao": "Reservado para recuperação", "data": "2025-10-17", "hora": "" },
+    { "id": 13, "usuario_id": 3, "titulo": "Entrega projeto", "descricao": "Submeter projeto de disciplina", "data": "2025-10-19", "hora": "12:00" },
+    { "id": 14, "usuario_id": 4, "titulo": "Caminhada em família", "descricao": "Atividade de fim de semana", "data": "2025-10-26", "hora": "09:00" },
+    { "id": 15, "usuario_id": 5, "titulo": "Sessão de coaching", "descricao": "Coaching mensal", "data": "2025-11-02", "hora": "17:00" },
+    { "id": 16, "usuario_id": 1, "titulo": "Revisão semanal", "descricao": "Planejar próximas metas", "data": "2025-10-11", "hora": "20:00" },
+    { "id": 17, "usuario_id": 2, "titulo": "Consulta dentista", "descricao": "Limpeza", "data": "2025-11-05", "hora": "11:00" },
+    { "id": 18, "usuario_id": 3, "titulo": "Palestra online", "descricao": "Assitir palestra sobre foco", "data": "2025-10-21", "hora": "19:30" },
+    { "id": 19, "usuario_id": 4, "titulo": "Avaliação física", "descricao": "Teste funcional", "data": "2025-10-23", "hora": "08:00" },
+    { "id": 20, "usuario_id": 5, "titulo": "Dia de spa", "descricao": "Autocuidado", "data": "2025-11-15", "hora": "14:00" }
+  ],
+
+  "motivacao": [
+    { "id": 1, "usuario_id": 1, "mensagem": "Comece pequeno — consistência vence intensidade." },
+    { "id": 2, "usuario_id": 2, "mensagem": "A cada passo você se aproxima do objetivo." },
+    { "id": 3, "usuario_id": 3, "mensagem": "Foco hoje, conquistas amanhã." },
+    { "id": 4, "usuario_id": 4, "mensagem": "Não desista: recomeçar também é progresso." },
+    { "id": 5, "usuario_id": 5, "mensagem": "Respire fundo — você fez o melhor que pôde hoje." },
+    { "id": 6, "usuario_id": 1, "mensagem": "Pequenas vitórias importam." },
+    { "id": 7, "usuario_id": 2, "mensagem": "Cuide do corpo e da mente seguirá." },
+    { "id": 8, "usuario_id": 3, "mensagem": "Disciplina é amor pelo futuro você." },
+    { "id": 9, "usuario_id": 4, "mensagem": "Uma escolha de cada vez." },
+    { "id": 10, "usuario_id": 5, "mensagem": "A gratidão muda a percepção." }
+  ]
+}
