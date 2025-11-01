@@ -19,21 +19,35 @@
   "humor": [
     {
       "id": 1,
-      "usuarioId": 1,
-      "data": "2025-10-12",
-      "emocao": "feliz",
-      "intensidade": 8,
-      "descricao": "Dia produtivo e calmo"
+      "usuario_id": 1,
+      "humorLabel": "feliz",
+      "humorEmoji": "🙂",
+      "data": "2025-10-12"
     },
     {
       "id": 2,
-      "usuarioId": 2,
-      "data": "2025-10-12",
-      "emocao": "ansioso",
-      "intensidade": 6,
-      "descricao": "Véspera de apresentação"
+      "usuario_id": 1,
+      "humorLabel": "muito feliz",
+      "humorEmoji": "😄",
+      "data": "2025-10-13"
+    },
+    {
+      "id": 3,
+      "usuario_id": 1,
+      "humorLabel": "neutro",
+      "humorEmoji": "😐",
+      "data": "2025-10-14"
+    },
+    {
+      "id": 4,
+      "usuario_id": 1,
+      "humorLabel": "triste",
+      "humorEmoji": "🙁",
+      "data": "2025-10-15"
     }
-  ],
+  ]
+}
+
 
   "habitos": [
     {
@@ -75,4 +89,3 @@
       "texto": "O dia foi cheio de tarefas, mas consegui manter o foco."
     }
   ]
-}
