@@ -1,1 +1,104 @@
-l
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Larissa Maria",
+      "email": "larissa@email.com",
+      "senha": "123456",
+      "foto": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 2,
+      "nome": "Lyvia Maria",
+      "email": "lyvia@email.com",
+      "senha": "123456",
+      "foto": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 3,
+      "nome": "Ayslanne",
+      "email": "ayslann@email.com",
+      "senha": "123456",
+      "foto": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 4,
+      "nome": "Maria Gabriely",
+      "email": "gaby@email.com",
+      "senha": "123456",
+      "foto": "https://i.pravatar.cc/150?img=8"
+    }
+  ],
+
+  "humor": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "humorLabel": "feliz",
+      "humorEmoji": "🙂",
+      "data": "2025-10-12"
+    },
+    {
+      "id": 2,
+      "usuario_id": 1,
+      "humorLabel": "muito feliz",
+      "humorEmoji": "😄",
+      "data": "2025-10-13"
+    },
+    {
+      "id": 3,
+      "usuario_id": 1,
+      "humorLabel": "neutro",
+      "humorEmoji": "😐",
+      "data": "2025-10-14"
+    },
+    {
+      "id": 4,
+      "usuario_id": 1,
+      "humorLabel": "triste",
+      "humorEmoji": "🙁",
+      "data": "2025-10-15"
+    }
+  ],
+
+  "habitos": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "nome": "Beber água",
+      "frequencia": "diário",
+      "progresso": 90
+    },
+    {
+      "id": 2,
+      "usuarioId": 1,
+      "nome": "Meditar",
+      "frequencia": "3x por semana",
+      "progresso": 60
+    },
+    {
+      "id": 3,
+      "usuarioId": 2,
+      "nome": "Fazer exercícios",
+      "frequencia": "5x por semana",
+      "progresso": 70
+    }
+  ],
+
+  "diario": [
+    {
+      "id": 1,
+      "usuarioId": 1,
+      "data": "2025-10-10",
+      "titulo": "Dia tranquilo",
+      "texto": "Hoje consegui cumprir meus hábitos e me senti mais leve."
+    },
+    {
+      "id": 2,
+      "usuarioId": 2,
+      "data": "2025-10-09",
+      "titulo": "Muita correria",
+      "texto": "O dia foi cheio de tarefas, mas consegui manter o foco."
+    }
+  ]
+}
