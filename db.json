@@ -1,5 +1,5 @@
 {
- "usuarios": [
+  "usuarios": [
     {
       "id": 1,
       "nome": "Larissa Maria",
@@ -28,7 +28,7 @@
       "senha": "123456",
       "foto": "https://i.pravatar.cc/150?img=8"
     }
-]
+  ],
 
   "humor": [
     {
