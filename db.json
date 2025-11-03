@@ -2,9 +2,20 @@
   "usuarios": [
     {
       "id": 1,
-      "nome": "Larissa Maria",
-      "email": "larissa@email.com",
+      "nome": "Larissa",
+      "email": "larissa@mail.com",
       "senha": "123456",
+      "dataNascimento": "2004-05-12",
+      "genero": "Feminino",
+      "altura": 1.65,
+      "peso": 58.0,
+      "objetivo": "Equilíbrio emocional",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": "Nenhuma",
+      "telefone": "999999999",
+      "cidade": "São Paulo",
+      "estado": "SP",
       "foto": "https://i.pravatar.cc/150?img=5"
     },
     {
@@ -12,6 +23,17 @@
       "nome": "Lyvia Maria",
       "email": "lyvia@email.com",
       "senha": "123456",
+      "dataNascimento": "2005-03-10",
+      "genero": "Feminino",
+      "altura": 1.70,
+      "peso": 60.0,
+      "objetivo": "Crescimento pessoal",
+      "praticaMeditacao": 0,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": "Nenhuma",
+      "telefone": "988888888",
+      "cidade": "Recife",
+      "estado": "PE",
       "foto": "https://i.pravatar.cc/150?img=8"
     },
     {
@@ -19,14 +41,36 @@
       "nome": "Ayslanne",
       "email": "ayslann@email.com",
       "senha": "123456",
-      "foto": "https://i.pravatar.cc/150?img=8"
+      "dataNascimento": "2004-09-25",
+      "genero": "Feminino",
+      "altura": 1.60,
+      "peso": 55.0,
+      "objetivo": "Equilíbrio emocional",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 0,
+      "condicaoSaude": "Nenhuma",
+      "telefone": "977777777",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "foto": "https://i.pravatar.cc/150?img=9"
     },
     {
       "id": 4,
       "nome": "Maria Gabriely",
       "email": "gaby@email.com",
       "senha": "123456",
-      "foto": "https://i.pravatar.cc/150?img=8"
+      "dataNascimento": "2004-11-02",
+      "genero": "Feminino",
+      "altura": 1.68,
+      "peso": 59.0,
+      "objetivo": "Saúde mental",
+      "praticaMeditacao": 1,
+      "recebeNotificacoes": 1,
+      "condicaoSaude": "Nenhuma",
+      "telefone": "966666666",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "foto": "https://i.pravatar.cc/150?img=10"
     }
   ],
 
