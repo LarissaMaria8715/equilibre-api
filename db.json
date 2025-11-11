@@ -74,6 +74,16 @@
     }
   ],
 
+  
+  "login": [
+    { 
+      "email": "larissa@mail.com", "senha": "123456", "usuarioId": 1 
+    },
+    { "email": "lyvia@email.com", "senha": "123456", "usuarioId": 2 },
+    { "email": "ayslann@email.com", "senha": "123456", "usuarioId": 3 },
+    { "email": "gaby@email.com", "senha": "123456", "usuarioId": 4 }
+  ],
+
   "humor": [
     {
       "id": 1,
